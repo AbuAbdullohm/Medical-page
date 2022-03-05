@@ -1,0 +1,242 @@
+/* UMUMIY STILLAR */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.max-w-90 {
+    max-width: 90%;
+}
+
+.max-w-80 {
+    max-width: 80%;
+}
+
+.max-w-45 {
+    max-width: 45%;
+}
+
+.t-align-c {
+    text-align: center;
+}
+
+.m-left-a {
+    margin-left: auto;
+}
+
+.m-left-0 {
+    margin-left: 0;
+}
+
+.m-left-1 {
+    margin-left: 8.33333%;
+}
+
+.m-left-2 {
+    margin-left: 16.66667%;
+}
+
+.m-left-3 {
+    margin-left: 25%;
+}
+
+.m-left-10 {
+    margin-left: 10px;
+}
+
+.m-top-5{
+    margin-top: 5px;
+}
+
+.m-top-10{
+    margin-top: 10px;
+}
+
+.m-top-20 {
+    margin-top: 20px;
+}
+
+.m-top-30{
+    margin-top: 30px;
+}
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
+.m-top-100 {
+    margin-top: 100px;
+}
+
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.m-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.m-right-a {
+    margin-right: auto;
+}
+
+.m-right-0 {
+    margin-right: 0;
+}
+
+.m-right-1 {
+    margin-right: 8.33333%;
+}
+
+.m-right-2 {
+    margin-right: 16.66667%;
+}
+
+.m-right-3 {
+    margin-right: 25%;
+}
+
+.m-left-right-a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-green-fonts-36 {
+    color: #55a630;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.back-green {
+    background-color: #55a630;
+}
+
+.back-blue {
+    background-color: #4340B4;
+}
+
+.back-other {
+    background-color: #00A896;
+}
+
+.green {
+    color: #55a630;
+}
+
+.blue {
+    color: #4340B4;
+}
+
+.other-color {
+    color: #00A896;
+}
+
+.white {
+    color: #fff;
+}
+
+.back-white{
+    background-color: #fff;
+}
+
+.black {
+    color: black;
+}
+
+
+
+
+
+/* FONT SIZE */
+.fonts-10 {
+    font-size: 10px;
+}
+
+.fonts-12 {
+    font-size: 12px;
+}
+
+.fonts-14 {
+    font-size: 14px;
+}
+
+.fonts-18 {
+    font-size: 18px;
+}
+
+.fonts-20 {
+    font-size: 20px;
+}
+
+.font-w-bold {
+    font-weight: bold;
+}
+
+.font-w-bolder {
+    font-weight: bolder;
+}
+
+
+
+
+/* DISPLAY FUNKSIYASI */
+
+.d-none {
+    display: none !important
+}
+
+.d-inline-block {
+    display: inline-block !important
+}
+
+.d-block {
+    display: block !important
+}
+
+.d-table {
+    display: table !important
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.d-grid {
+    display: grid;
+}
+
+
+/* DISPLAY FLEX QIYMATLARI */
+.f-wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.j-content-sa {
+    justify-content: space-around;
+}
+
+.j-content-sb {
+    justify-content: space-between;
+}
+
+.j-content-se {
+    justify-content: space-evenly;
+}
+
+.align-item-c {
+    align-items: center;
+}
+
+.flex-dir-c {
+    flex-direction: column;
+}
+
+.flex-dir-r {
+    flex-direction: row;
+}
+
+
+
