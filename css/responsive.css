@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1024px) {
+  .max-w-45 {
+    max-width: 48%;
+  }
+
+  .max-w-90 {
+    max-width: 96%;
+  }
+
+  .disp-none {
+    display: none;
+  }
+
+  .mobile-menu .menu-btn {
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .header-logo a {
+    margin-left: 80%;
+  }
+
+  .header-social p {
+    position: absolute;
+    right: 10px;
+  }
+
+  .header-menu {
+    position: absolute;
+    display: none;
+  }
+
+  .header-menu a {
+    display: none;
+  }
+
+  .content-text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+  }
+
+  .leftside-arrow,
+  .rightside-arrow {
+    display: none;
+  }
+
+  .about-image {
+    padding-right: 20px;
+  }
+
+  .cosmetolog-item-1 {
+    max-width: 460px;
+    min-width: 370px;
+    height: 200px;
+  }
+
+  .cosmetolog-item-2 {
+    max-width: 300px;
+    min-width: 250px;
+    height: 200px;
+  }
+
+  .cosmetolog-item__info {
+    transform: translateY(80px);
+  }
+
+  .cosmetolog-item:hover .cosmetolog-item__info {
+    transform: translateY(-20px);
+  }
+
+  .model-section__text,
+  .model-section__image {
+    height: 350px;
+  }
+
+  .master-clas__card {
+    width: 450px;
+    height: 420px;
+  }
+
+  .discount-cards img{
+    width: 32%;
+}
+}

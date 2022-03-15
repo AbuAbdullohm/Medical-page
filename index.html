@@ -6,17 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/universal-style.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Medical page</title>
   </head>
   <body>
     <div class="container">
       <header class="max-w-90 m-left-right-a m-top-20">
+        <div class="mobile-menu">
+          <button class="menu-btn">
+            <img src="./images/menu-btn.png" alt="Menu">
+          </button>
+          <button class="exit-btn">
+            <img src="./images/close.svg" alt="Close">
+          </button>
+        </div>
         <div class="logo d-flex j-content-sb">
           <div class="header-logo">
             <a class="d-flex align-item-c" href="./index.html">
               <img src="./images/logo.png" alt="Logo" />
-              <p class="m-left-10">
+              <p class="m-left-10 disp-none">
                 Учебный центр <br />
                 эстетической косметологии
               </p>
@@ -24,160 +37,571 @@
           </div>
           <div class="header-social d-flex align-item-c j-content-sb">
             <div class="header-social__mobile d-flex align-item-c">
-              <img src="./images/icon-phone.png" alt="Phone" /> <br />
-              <p class="fonts-20 m-left-10">+998 (99) 034-93-74</p>
+              <img class="disp-none" src="./images/icon-phone.png" alt="Phone" /> <br />
+              <p class="fonts-22 m-left-20 opacity-8">+998 (99) 034-93-74</p>
             </div>
-            <div class="header-social__icons">
+            <div class="header-social__icons disp-none">
               <a href="#">
                 <img src="./images/icon-facebook.png" alt="Facebook" />
               </a>
               <a href="#">
                 <img
-                  class="m-left-10"
+                  class="m-left-10 disp-none"
                   src="./images/icon-instagram.png"
                   alt="Instagram"
                 />
               </a>
             </div>
-            <div class="for-language">
+            <div class="for-language disp-none">
               <img src="./images/russia-flag.png" alt="Flag" />
             </div>
           </div>
         </div>
       </header>
 
-        <div class="divider"></div>
+      <div class="divider disp-none"></div>
 
-        <div class="header-menu max-w-90 m-left-right-a d-flex j-content-sb m-top-20 fonts-20">
-          <a href="#">Курсы обучения</a>
-          <a href="#">Вебинары</a>
-          <a href="#">Видео-уроки</a>
-          <a href="#">Блог</a>
-          <a href="#">О нас</a>
-          <a href="#">Прайс</a>
-          <a href="#">Рассписание</a>
-          <a href="#">Акции</a>
-          <a href="#">Магазин</a>
-        </div>
-
+      <div
+        class="header-menu max-w-90 m-left-right-a d-flex j-content-sb m-top-20 fonts-20 opacity-8"
+      >
+        <a href="#">Курсы обучения</a>
+        <a href="#">Вебинары</a>
+        <a href="#">Видео-уроки</a>
+        <a href="#">Блог</a>
+        <a href="#">О нас</a>
+        <a href="#">Прайс</a>
+        <a href="#">Рассписание</a>
+        <a href="#">Акции</a>
+        <a href="#">Магазин</a>
+      </div>
 
       <div class="main-section m-top-20 d-flex m-left-right-a">
         <div class="main-section-content max-w-45 m-left-a">
           <div class="content-text">
-            <p class="fonts-20">Бесплатный вебинар</p>
-            <h1 class="m-top-10">ПРОФЕССИЯ <br> КОСМЕТОЛОГ</h1>
-          <p class="max-w-90 m-top-10 fonts-20">Приглашаем на бесплатный вебинар для профессиональных косметологов и интересующихся этой профессией</p>
+            <p class="fonts-20 opacity-8 font-w-bold disp-none">Бесплатный вебинар</p>
+            <h1 class="m-top-10">
+              ПРОФЕССИЯ <br />
+              КОСМЕТОЛОГ
+            </h1>
+            <p class="max-w-90 m-top-10 fonts-20 opacity-8">
+              Приглашаем на бесплатный вебинар для профессиональных косметологов
+              и интересующихся этой профессией
+            </p>
           </div>
           <div class="d-flex m-top-50">
             <a href="#">
-              <button class="green-button white" type="submit">Зарегистрироваться</button>
-            </a> <br>
+              <button class="green-button white fonts-17" type="submit">
+                Зарегистрироваться
+              </button>
+            </a>
+            <br />
             <a href="#">
-              <button class="white-button green m-left-10" type="menu">Узнать подробнее</button>
+              <button class="white-button green m-left-10 fonts-17" type="menu">
+                Узнать подробнее
+              </button>
             </a>
           </div>
         </div>
 
         <div class="main-section-image max-w-45 m-right-a">
-          <img src="./images/main-image.png" alt="Main">
+          <img src="./images/main-image.png" alt="Main" />
         </div>
+      </div>
 
-      </div>  
-      
       <div class="for-background">
         <div class="main-section-statistic d-flex j-content-sa max-w-90 m-left-right-a">
           <div class="statistic-section-item">
             <h2 class="item-title color-green-fonts-36">4000+</h2>
             <p class="item-info">Сертификатов мы выдали</p>
           </div>
-  
+
           <div class="statistic-section-item">
             <h2 class="item-title color-green-fonts-36">3500+</h2>
             <p class="item-info">Моделей в нашей базе</p>
           </div>
-  
+
           <div class="statistic-section-item">
             <h2 class="item-title color-green-fonts-36">1500+</h2>
             <p class="item-info">Специалистов мы обучили</p>
           </div>
-  
+
           <div class="statistic-section-item">
             <h2 class="item-title color-green-fonts-36">5500+</h2>
             <p class="item-info">Довольных клиентов</p>
           </div>
         </div>
-  
-  
+
         <div class="course-section m-top-100 max-w-90 m-left-right-a">
-          <h2 class="m-left-right-a t-align-c opacity-8">Курсы обучения</h2>
-          <div class="course-items d-flex j-content-sb m-top-50">
+          <h1 class="m-left-right-a t-align-c opacity-8">Курсы обучения</h1>
+          <div class="course-items d-flex j-content-sb m-top-50 align-item-c">
+            <img
+              class="leftside-arrow"
+              src="./images/leftside-arrow.png"
+              alt="Arrow"
+            />
             <div class="course-item">
               <div class="padding">
                 <p class="font-w-bold">Курс для медиков</p>
-                <img src="./images/bird-icon.png" alt="Bird">
-                <h2 class="course-item-title blue m-top-10">Канюльные <br> техники</h2>
-                <button class="offline-button back-blue blue white m-top-20" type="submit">Оффлайн</button>
+                <img src="./images/bird-icon.png" alt="Bird" />
+                <h2 class="course-item-title blue m-top-10">
+                  Канюльные <br />
+                  техники
+                </h2>
+                <button
+                  class="offline-button back-blue blue white m-top-20"
+                  type="submit"
+                >
+                  <p>Оффлайн</p>
+                </button>
                 <p class="m-top-10 font-w-bold">1 - 4 мая</p>
-                <div class="border-left m-top-20 blue">
-                  <p class="max-w-45 d-inline-block m-left-10 black">Краткое описание Что-то о курсе Пару фактов Краткое описание</p>
+                <div class="border-left m-top-50 blue">
+                  <p class="max-w-45 d-inline-block m-left-10 black">
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
                 </div>
-                <img class="second-image" src="./images/kurs-image-1.png" alt="Kurs">
+                <img
+                  class="second-image"
+                  src="./images/kurs-image-1.png"
+                  alt="Kurs"
+                />
                 <p class="m-top-50">Свободно 2 из 15 мест</p>
               </div>
               <div class="no-padding m-top-30">
                 <a href="#">
-                  <button class="submit-button back-blue white" type="submit">Зарегистрироваться</button><br>
+                  <button class="submit-button back-blue white" type="submit">
+                    Зарегистрироваться</button
+                  ><br />
                 </a>
-                <a href="#"><button class="more-button blue" type="submit">Подробнее</button></a>
+                <a href="#"
+                  ><button class="more-button blue" type="submit">
+                    Подробнее
+                  </button></a
+                >
               </div>
             </div>
-  
+
             <div class="course-item">
               <div class="padding">
                 <p class="font-w-bold">Курс для медиков</p>
-                <img src="./images/bird-icon.png" alt="Bird">
-                <h2 class="course-item-title green m-top-10">Мезотерапия и биоревителизация</h2>
-                <button class="offline-button back-green green white m-top-20" type="submit">Онлайн</button>
+                <img src="./images/bird-icon.png" alt="Bird" />
+                <h2 class="course-item-title green m-top-10">
+                  Мезотерапия и биоревителизация
+                </h2>
+                <button
+                  class="offline-button back-green green white m-top-20"
+                  type="submit"
+                >
+                  <p>Онлайн</p>
+                </button>
                 <p class="m-top-10 font-w-bold">15 - 20 мая</p>
-                <div class="border-left m-top-20 green">
-                  <p class="max-w-45 d-inline-block m-left-10 black">Краткое описание Что-то о курсе Пару фактов Краткое описание</p>
+                <div class="border-left m-top-50 green">
+                  <p class="max-w-45 d-inline-block m-left-10 black">
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
                 </div>
-                <img class="second-image" src="./images/kurs-image-1.png" alt="Kurs">
+                <img
+                  class="second-image"
+                  src="./images/kurs-image-1.png"
+                  alt="Kurs"
+                />
                 <p class="m-top-50">Свободно 2 из 15 мест</p>
               </div>
               <div class="no-padding m-top-30">
-                <button class="submit-button back-green white" type="submit">Зарегистрироваться</button><br>
-                <button class="more-button green" type="submit">Подробнее</button>
+                <button class="submit-button back-green white" type="submit">
+                  Зарегистрироваться</button
+                ><br />
+                <button class="more-button green" type="submit">
+                  Подробнее
+                </button>
               </div>
             </div>
-  
+
             <div class="course-item">
               <div class="padding">
                 <p class="font-w-bold">Курс для медиков</p>
-                <img src="./images/bird-icon.png" alt="Bird">
-                <h2 class="course-item-title other-color m-top-10">Биогель - новое в косметологии</h2>
-                <button class="offline-button back-other other-color white m-top-20" type="submit">Мастер-класс</button>
+                <img src="./images/bird-icon.png" alt="Bird" />
+                <h2 class="course-item-title other-color m-top-10">
+                  Биогель - новое в косметологии
+                </h2>
+                <button
+                  class="offline-button back-other other-color white m-top-20"
+                  type="submit"
+                >
+                  <p>Мастер-класс</p>
+                </button>
                 <p class="m-top-10 font-w-bold">2 - 5 августа</p>
-                <div class="border-left m-top-20 other-color">
-                  <p class="max-w-45 d-inline-block m-left-10 black">Краткое описание Что-то о курсе Пару фактов Краткое описание</p>
+                <div class="border-left m-top-50 other-color">
+                  <p class="max-w-45 d-inline-block m-left-10 black">
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
                 </div>
-                <img class="second-image" src="./images/kurs-image-2.png" alt="Kurs">
+                <img
+                  class="second-image"
+                  src="./images/kurs-image-2.png"
+                  alt="Kurs"
+                />
                 <p class="m-top-50">Свободно 2 из 15 мест</p>
               </div>
               <div class="no-padding m-top-30">
-                <button class="submit-button back-other white" type="submit">Зарегистрироваться</button><br>
-                <button class="more-button other-color" type="submit">Подробнее</button>
+                <button class="submit-button back-other white" type="submit">
+                  Зарегистрироваться</button
+                ><br />
+                <button class="more-button other-color" type="submit">
+                  Подробнее
+                </button>
               </div>
+            </div>
+            <img
+              class="rightside-arrow"
+              src="./images/rightside-arrow.png"
+              alt="Arrow"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="about-us__section d-flex j-content-sb max-w-90 m-top-100 m-bottom-100 m-left-right-a">
+        <div class="about-image">
+          <img class="" src="./images/about-us-image.png" alt="About us" />
+        </div>
+        <div class="about-info max-w-45 m-top-10">
+          <div class="about-text max-w-80">
+            <p class="opacity-8 fonts-18">О нас</p>
+            <h1 class="about-text__title m-top-20 opacity-8">
+              <span class="green opacity-10">VALMARI</span> <br />
+              ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ
+            </h1>
+            <p class="m-top-50 fonts-18">
+              Описание может быть любое. <br /><br />
+              Ведущий учебный центр эстетической косметологии. <br /><br />
+              Более 5 лет мы проводим курсы сертифицированные курсы
+              профессионального образования в области косметологии и индустри и
+              красоты, здоровья и молодости
+            </p>
+          </div>
+          <div class="about-text__more m-top-50 j-content-end m-right-1">
+            <a class="d-flex j-content-end" href="#">
+              <p class="green fonts-20">Подробнее</p>
+              <img class="m-left-20" src="./images/strelka.svg" alt="Strelka" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cosmetolog-section max-w-90 m-left-right-a">
+        <h1 class="opacity-8 text-a-center">
+          Обучение <br />
+          косметологов
+        </h1>
+        <div class="cosmetolog-items d-flex f-wrap-wrap j-content-sb">
+          <div class="cosmetolog-item cosmetolog-item-1">
+            <img src="./images/kosmetolog-1.png" alt="Cosmetolog" />
+            <div class="cosmetolog-item__info d-flex f-wrap-wrap">
+              <a class="d-flex m-left-20 fonts-20 m-top-70" href="#">
+                <p class="text-tr white fonts-30 font-w-500">
+                  курсы косметологии
+                </p>
+                <!-- <img
+                  class="m-left-10 back-opacity"
+                  src="./images/strelka-1.svg"
+                  alt="Strelka"
+                /> -->
+              </a>
+              <p class="m-top-50 white m-left-20 font-w-500 hidden">
+                - эстетическая косметология <br />
+                - инъекционная косметология <br />
+                - лазерная косметология
+              </p>
+            </div>
+          </div>
+
+          <div class="cosmetolog-item cosmetolog-item-1">
+            <img src="./images/kosmetolog-2.png" alt="Cosmetolog" />
+            <div class="cosmetolog-item__info d-flex flex-dir-c">
+              <a class="d-flex m-left-20 fonts-20 m-top-70" href="#">
+                <p class="text-tr white fonts-30 font-w-500">Онлайн обучение</p>
+              </a>
+              <p class="m-top-50 white m-left-20 font-w-500 hidden">
+                - вебинары <br />
+                - видеоматериалы
+              </p>
+            </div>
+          </div>
+
+          <div class="cosmetolog-item cosmetolog-item-2">
+            <img src="./images/kosmetolog-3.png" alt="Cosmetolog" />
+            <div class="cosmetolog-item__info d-flex flex-dir-c">
+              <a class="d-flex m-left-20 fonts-20 m-top-70" href="#">
+                <p class="text-tr white fonts-30 font-w-500">мастер-классы</p>
+              </a>
+              <p class="m-top-50 white m-left-20 font-w-500 hidden">
+                Мероприятия для повышения квалификации косметологов
+              </p>
+            </div>
+          </div>
+
+          <div class="cosmetolog-item cosmetolog-item-2">
+            <img src="./images/kosmetolog-4.png" alt="Cosmetolog" />
+            <div class="cosmetolog-item__info d-flex flex-dir-c">
+              <a class="d-flex m-left-20 fonts-20 m-top-70" href="#">
+                <p class="text-tr white fonts-30 font-w-500">расписание</p>
+              </a>
+              <p class="m-top-50 white m-left-20 font-w-500 hidden">
+                Расписание курсов и мероприятий Valmari
+              </p>
+            </div>
+          </div>
+
+          <div class="cosmetolog-item cosmetolog-item-2">
+            <img src="./images/kosmetolog-5.png" alt="Cosmetolog" />
+            <div class="cosmetolog-item__info d-flex flex-dir-c">
+              <a class="d-flex m-left-20 fonts-20 m-top-70" href="#">
+                <p class="text-tr white fonts-30 font-w-500">Акции</p>
+              </a>
+              <p class="m-top-50 white m-left-20 font-w-500 hidden">
+                Акции на обучение в центре эстетической косметологии Valmari
+              </p>
             </div>
           </div>
         </div>
-  
       </div>
 
+      <div class="model-section max-w-90 m-left-right-a d-flex j-content-sb m-top-100">
+        <div class="model-section__text d-flex j-content-sb flex-dir-c">
+          <h1 class="green">ВЕДЕМ НАБОР МОДЕЛЕЙ</h1>
+          <p class="fonts-18 opacity-8 max-w-80">
+            Мы предлагаем свои услуги для моделей. <br /><br />
+            Выберите процедуру или несколько процедур <br />
+            и наш менеджер проконсультирует вас <br />
+            и назовет ближайшую дату, когда вы сможете получить эту процедуру.
+          </p>
+          <a href="#">
+            <button class="green-button white fonts-17" type="submit">
+              Стать моделью
+            </button>
+          </a>
+        </div>
+        <div class="model-section__image">
+          <img src="./images/model-image.png" alt="Model" />
+        </div>
+      </div>
 
+      <div class="master-clas__section max-w-90 m-left-right-a m-top-100">
+        <h1 class="opacity-8 t-align-c">Мастер-классы</h1>
+        <p class="t-align-c m-top-20">
+          Мероприятия для повышения квалификации косметологов
+        </p>
 
+        <div
+          class="master-clas__cards d-flex j-content-sb m-top-50 align-item-c"
+        >
+          <img
+            class="leftside-arrow"
+            src="./images/leftside-arrow.png"
+            alt="Arrow"
+          />
+          <div class="master-clas__card d-flex f-wrap-wrap">
+            <img src="./images/master-clas-image-1.png" alt="Master" />
+            <div class="card-text d-flex j-content-sb">
+              <div class="card-info p-left-20 d-flex flex-dir-c j-content-sb">
+                <p class="m-top-10">3 ноября, 10:00-12:00</p>
+                <p class="max-w-80 font-w-bold opacity-8">
+                  10 возможностей неодимового лазера. Лазерный пилинг, удаление
+                  тату/татуажа
+                </p>
+                <p>Тренер: Юлия Щукина</p>
+                <p></p>
+              </div>
 
+              <div class="card-price">
+                <p class="t-align-c font-w-bold opacity-8">2000 грн</p>
+                <button class="back-green">
+                  <a href="#">
+                    <img src="./images/strelka-3.svg" alt="Strelka" />
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
 
+          <div class="master-clas__card d-flex f-wrap-wrap">
+            <img src="./images/master-clas-image-2.png" alt="Master" />
+            <div class="card-text d-flex j-content-sb">
+              <div class="card-info p-left-20 d-flex flex-dir-c j-content-se">
+                <p class="m-top-10">20 ноября, 12:00-17:00</p>
+                <p class="max-w-80 font-w-bold opacity-8">
+                  Профессия косметолог. Семинар для новичков и профессионалов
+                </p>
+                <p class="max-w-80">
+                  Спикеры: Марина Спивак, Алина Ядчишина, Елена Белогурова, Юлия
+                  Щукина
+                </p>
+              </div>
+
+              <div class="card-price">
+                <p class="t-align-c font-w-bold opacity-8">Бесплатно</p>
+                <button class="back-green">
+                  <a href="#">
+                    <img src="./images/strelka-3.svg" alt="Strelka" />
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <img
+            class="rightside-arrow"
+            src="./images/rightside-arrow.png"
+            alt="Arrow"
+          />
+        </div>
+      </div>
+
+      <div class="results-section max-w-90 m-top-100 m-left-right-a">
+        <h1 class="text-a-center opacity-8">Почему мы</h1>
+
+        <div class="results-items d-flex j-content-sb m-top-30">
+          <div class="results-item">
+            <h3 class="opacity-8 p-left-20 p-top-20">Преподаватели</h3>
+            <p class="max-w-90 padding-20">
+              Наши преподаватели имеют многолетний опыт в сфере косметологии и
+              совмещают преподовательскую деятельность с практической работой в
+              салонах красоты и других специализированных центрах.
+            </p>
+          </div>
+
+          <div class="results-item back-for-result">
+            <h3 class="opacity-8 p-left-20 p-top-20">Сертификаты</h3>
+            <p class="max-w-90 padding-20">
+              Удостоверение, сертификат и свидетельство полученные у нас по
+              окончанию курсов, работают как лучшая "рекомендация" при приеме на
+              работу
+            </p>
+          </div>
+
+          <div class="results-item">
+            <h3 class="opacity-8 max-w-80 p-left-20 p-top-20">
+              Повышение квалификации
+            </h3>
+            <p class="max-w-90 padding-20">
+              Ежегодно, больше 2000 косметологов повышают квалификацию и уровень
+              профессионализма в просторных кабинетах нашего центра.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="discount-section m-top-100 max-w-90 m-left-right-a">
+        <h1 class="text-a-center opacity-8">Специальные предложения</h1>
+        <div class="for-arrow m-top-70 d-flex align-item-c j-content-sb">
+          <img
+            class="leftside-arrow"
+            src="./images/leftside-arrow.png"
+            alt="Arrow"
+          />
+          <div class="discount-cards d-flex j-content-sb align-item-c">
+            <img src="./images/discount-1.png" alt="Discount" />
+            <img src="./images/discount-2.png" alt="Discount" />
+            <img src="./images/discount-3.png" alt="Discount" />
+          </div>
+          <img
+            class="rightside-arrow"
+            src="./images/rightside-arrow.png"
+            alt="Arrow"
+          />
+        </div>
+      </div>
+
+      <div class="label-section max-w-90 m-left-right-a t-align-c m-top-100">
+        <h2 class="green">Закажите обратный звонок</h2>
+        <p class="opacity-8 m-top-30">
+          Оставьте заявку в форме и наш менеджер свяжется с вами
+        </p>
+        <form action="#">
+          <label class="label-input" for="firstname">
+            <input
+              class="m-top-50"
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Ваше имя"
+              required
+            /> </label
+          ><br />
+          <label class="label-input" for="phone">
+            <input id="phone" class="no-arrow m-top-10" type="number" name="phone" placeholder="Ваш номер телефона" required/>
+          </label>
+          <br />
+          <button type="submit" class="back-green white m-top-20 fonts-20">
+            Отправить
+          </button>
+        </form>
+      </div>
+
+      <footer class="d-flex j-content-sb m-top-100 white">
+        <div class="footer-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9513.823794179856!2d69.27295509392452!3d41.316117093554965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2a6565712d%3A0x790feb8933429946!2sNational%20Library%20of%20Uzbekistan!5e0!3m2!1sen!2s!4v1647235414835!5m2!1sen!2s"
+            width="100%"
+            height="650"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="footer-info">
+          <img class="m-top-20" src="./images/logo-lighter.png" alt="Logo" />
+          <h2 class="font-w-bold white m-top-50">+998 (99) 034-93-74</h2>
+          <p class="m-top-20 fonts-18">Харьков, Клочковская, д. 3</p>
+          <div class="footer-menu m-top-50 d-flex">
+            <ul class="footer-menu__item">
+              <li>
+                <a href="#">Курсы обучения</a>
+              </li>
+              <li>
+                <a href="#">Вебинары</a>
+              </li>
+              <li>
+                <a href="#">Видео-уроки</a>
+              </li>
+              <li>
+                <a href="#">Прайс</a>
+              </li>
+              <li>
+                <a href="#">Рассписание</a>
+              </li>
+            </ul>
+            <ul class="footer-menu__item m-left-2">
+              <li>
+                <a href="#">Акции</a>
+              </li>
+              <li>
+                <a href="#">О нас</a>
+              </li>
+              <li>
+                <a href="#">Блог</a>
+              </li>
+              <li>
+                <a href="#">Магазин</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-socials m-top-50">
+            <a href="#">
+              <img src="./images/icon-facebook-white.png" alt="Facebook" />
+            </a>
+            <a class="m-left-1" href="#">
+              <img src="./images/icon-instagram-white.png" alt="Instagram" />
+            </a>
+          </div>
+
+          <p class="m-top-20">
+            <a class="white opacity-8" href="#">Политика конфиденциальности</a>
+          </p>
+        </div>
+      </footer>
     </div>
+
   </body>
+  <script src="./css/java-script.js"></script>
 </html>

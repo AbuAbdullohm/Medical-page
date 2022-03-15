@@ -45,6 +45,10 @@ a{
     margin-left: 10px;
 }
 
+.m-left-20 {
+    margin-left: 20px;
+}
+
 .m-top-5{
     margin-top: 5px;
 }
@@ -63,6 +67,10 @@ a{
 
 .m-top-50 {
     margin-top: 50px;
+}
+
+.m-top-70 {
+    margin-top: 70px;
 }
 
 .m-top-100 {
@@ -144,6 +152,35 @@ a{
     color: black;
 }
 
+.back-for-result{
+    background-color: #B7ECB1;
+}
+
+
+/* Padding */
+.padding-10{
+    padding: 10px;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+.p-left-10{
+    padding-left: 10px;
+}
+
+.p-left-20 {
+    padding-left: 20px;
+}
+
+.p-top-10{
+    padding-top: 10px;
+}
+
+.p-top-20 {
+    padding-top: 20px;
+}
 
 
 
@@ -161,6 +198,10 @@ a{
     font-size: 14px;
 }
 
+.fonts-17 {
+    font-size: 17px;
+}
+
 .fonts-18 {
     font-size: 18px;
 }
@@ -169,12 +210,33 @@ a{
     font-size: 20px;
 }
 
+.fonts-22 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.fonts-30 {
+    font-size: 30px;
+}
+
+.font-w-500 {
+    font-weight: 500;
+}
+
 .font-w-bold {
     font-weight: bold;
 }
 
 .font-w-bolder {
     font-weight: bolder;
+}
+
+.text-tr {
+    text-transform: uppercase;
+}
+
+.text-a-center{
+    text-align: center;
 }
 
 
@@ -224,6 +286,10 @@ a{
 
 .j-content-se {
     justify-content: space-evenly;
+}
+
+.j-content-end{
+    justify-content: flex-end;
 }
 
 .align-item-c {

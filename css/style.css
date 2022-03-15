@@ -1,182 +1,391 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.no-arrow {
+  -moz-appearance: textfield;
+}
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 16px;
-    font-family: 'Roboto', san-serif;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 
 button {
-    cursor: pointer;
-    border: none;
+  z-index: 999;
+  cursor: pointer;
+  border: none;
+}
+
+li {
+  list-style: none;
 }
 
 .padding {
-    padding: 10px 15px 0;
+  padding: 10px 15px 0;
 }
 
-.no-padding{
-    padding: 0;
+.no-padding {
+  padding: 0;
 }
 
 .opacity-8 {
-    opacity: 0.8;
+  opacity: 0.8;
+}
+
+.opacity-10 {
+  opacity: 1;
 }
 
 .for-background {
-    background-image: url(../images/main-page-back.png);
-    background-position: right top;
-    background-repeat: no-repeat;
+  background-image: url(../images/main-page-back.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.mobile-menu .menu-btn{
+  display:none;
+}
+
+.mobile-menu .exit-btn{
+  display:none;
 }
 
 .logo {
-    width: 100%;
+  width: 100%;
 }
 
 .header-logo {
-    width: 60%;
+  width: 60%;
 }
 
 .header-social {
-    width: 40%;
+  width: 40%;
 }
 
 .divider {
-    width: 100%;
-    height: 1px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color:lightgreen;
-    border: none;
+  width: 100%;
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: lightgreen;
+  border: none;
 }
 
 .main-section {
-    background-color: #ECFFEB;
-    padding-top: 50px;
+  background-color: #ecffeb;
+  padding-top: 50px;
 }
 
-.content-text h1{
-    color: #55a630;
-    font-size: 4rem;
-    letter-spacing:  3;
+.content-text h1 {
+  color: #55a630;
+  font-size: 4rem;
+  letter-spacing: 3;
+  line-height: 62px;
 }
 
 .green-button {
-    width: 250px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    background-color: #55a630;
-    border: none;
-    letter-spacing: 1.2px;
-    font-weight: 600;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #55a630;
+  border: none;
+  font-weight: 600;
 }
 
 .white-button {
-    width: 250px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    background-color: #fff;
-    border: 1px solid #55a630;
-    letter-spacing: 1.2px;
-    font-weight: 600;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #fff;
+  border: 1px solid #55a630;
+  font-weight: 600;
 }
 
-.main-section-image{
-    margin-bottom: 15px;
+.main-section-image {
+  margin-bottom: 15px;
 }
 
-.main-section-image img{
-    width: 95%;
+.main-section-image img {
+  width: 95%;
 }
 
-.main-section-statistic{
-    width: 100%;
-    padding: 40px 50px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 5px;
-    background-color: #fff;
-    margin-top: -18px;
-    z-index: 50;
+.main-section-statistic {
+  width: 100%;
+  padding: 40px 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: -18px;
+  z-index: 50;
 }
 
 .statistic-section-item {
-    width: 15%;
+  width: 15%;
 }
 
 .item-title {
-    text-align: center;
+  text-align: center;
 }
 
 .item-info {
-    text-align: center;
-    font-size: 20px;
-    opacity: 0.7;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.7;
 }
 
 .course-section {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.leftside-arrow,
+.rightside-arrow {
+  width: 16px;
+  height: 24px;
 }
 
 .course-item {
-    position: relative;
-    width: 30%;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+  position: relative;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.course-item p{
-    opacity: 0.7;
+.course-item p {
+  opacity: 0.7;
 }
 
-.course-item img{
-    position: absolute;
-    top: 10px;
-    right: 10px;
+.course-item img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.course-item .second-image{
-    position: absolute;
-    top: 150px;
-    right: 5px;
+.course-item .second-image {
+  position: absolute;
+  top: 150px;
+  right: 5px;
 }
 
-.course-item h2{
-    font-size: 30px;
-    line-height: 28px;
+.course-item h2 {
+  font-size: 30px;
+  line-height: 28px;
 }
 
-.offline-button{
-    width: 130px;
-    height: 35px;
-    font-size: 18px;
-    border-radius: 5px;
+.offline-button {
+  width: 130px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
-.course-item .submit-button{
-    width: 100%;
-    height: 50px;
-    font-size: 17px;
-    font-weight: 20px;
-    font-weight: bold;
+.offline-button p {
+  opacity: 0.9;
+}
+
+.course-item .submit-button {
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 20px;
+  font-weight: bold;
 }
 
 .course-item .more-button {
-    width: 100%;
-    height: 50px;
-    font-size: 17px;
-    font-weight: 20px;
-    font-weight: bold;
-
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 20px;
+  font-weight: bold;
+  background-color: rgba(83, 81, 196, 0.1);
 }
 
-.border-left{
-    margin-left: 5px;
-    border-left: 2px solid;
+.border-left {
+  margin-left: 5px;
+  border-left: 2px solid;
+}
+
+.about-us__section .about-image {
+  width: 520px;
+  height: 570px;
+}
+
+.about-us__section .about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cosmetolog-item {
+  position: relative;
+  margin-top: 50px;
+}
+
+.cosmetolog-item-1{
+  width: 49%;
+  height: 250px;
+}
+
+.cosmetolog-item-2 {
+  width: 32%;
+  height: 250px;
+}
+
+.cosmetolog-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.cosmetolog-item__info {
+  position: absolute;
+  z-index: 5;
+  transform: translateY(130px);
+  transition: all 0.3s ease-in-out;
+}
+
+.cosmetolog-item:hover .cosmetolog-item__info {
+  transform: translateY(0);
+}
+
+.cosmetolog-item:hover .hidden{
+    opacity: 1;
+}
+
+.cosmetolog-item__info img {
+  position: relative;
+  width: 20%;
+}
+
+.hidden {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.model-section__text,
+.model-section__image{
+    height: 450px;
+}
+
+.model-section__text button:hover {
+  background-color: #64c239;
+}
+
+.model-section__image img{
+    height: 100%;
+}
+
+.master-clas__card{
+    width: 520px;
+    height: 450px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.master-clas__card img{
+    width: 100%;
+    height: 50%;
+}
+
+.card-text {
+  height: 50%;
+}
+
+.card-price {
+    width: 50%;
+}
+
+
+.card-price p{
+  width: 100%;
+  height: 70%;
+  line-height: 125px;
+  background-color: #ECF9EB;
+}
+
+.card-price button{
+  width: 100%;
+  height: 30%;
+}
+
+.card-price img{
+    width: 100%;
+    height: 20px;
+}
+
+.card-price button:hover{
+  background-color: #64c239;
+}
+
+.results-item{
+    width: 32%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
+
+.discount-cards img{
+    width: 30%;
+}
+
+.label-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+  padding: 50px 0;
+}
+
+.label-section input{
+  width: 350px;
+  height: 50px;
+  padding: 10px 30px;
+  border: 1px solid #55a630;
+  border-radius: 3px;
+  outline: none;
+  color: #2f00ff;
+}
+
+.label-input input::placeholder{
+  color: #55a630;
+}
+
+.label-section button {
+  width: 350px;
+  height: 50px;
+}
+
+footer {
+  background-color: #424242;
+}
+
+.footer-map{
+  width: 50%;
+}
+
+.footer-info {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.footer-menu__item li {
+  margin-top: 20px;
+}
+
+.footer-menu__item a{
+  color: white;
+  opacity: 0.8;
 }
